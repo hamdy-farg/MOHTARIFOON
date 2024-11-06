@@ -1,3 +1,28 @@
+## BLOC design pattern 
+## with BLOC Architecture
+so 
+* (api, model, repo) data => bussniss_logic => presentation
+* and perfect app router to initialize all bloc provider 
+* and get all routes inside app 
+* and still login or logout
+
+
+
+# dependencies
+```
+1 + firebase(firestore, firebase_auth, firebase_core, firebase_storage)
+  firebase_core : to activate firebase
+  firebase_auth : to sign up and login and get email verfication and sms verificatoion
+  firebase_storage : to store the photos
+  firestore : to keep the data of the user 
+2 + connectivity_plus : to check internet connectivity
+3 + flutter_localization : to make app with {"English"} and {"Arabic"} language
+4 + flutter_screenutil : to build responsive app
+5 + shared_preferences : to use cashe memory for some operation
+6 + sqflite : to store user data and store some application data to make it good offline
+7 + dio : setup is ready for get api and work with it
+
+```
 # splash Screens
 <img src="https://github.com/user-attachments/assets/7ddc53d5-d7aa-4a69-a870-e180ba35004e" alt="splash screen1" width="150"/>
 <img src="https://github.com/user-attachments/assets/f19645ec-beef-4491-8df4-fe370c437a0b" alt="splash screen1" width="150"/>
