@@ -1,6 +1,10 @@
-## BLOC design pattern 
-## with BLOC Architecture
-so 
+## Project: Mohtarfone App
+- Developed a mobile application for Multil Solution as a freelance project.
+- Designed to help users find jobs in various fields such as pharmaceutical companies and real estate.
+- Focused on creating an intuitive and visually appealing UI for enhanced user experience.
+- Integrated Firebase for essential functionalities, including user authentication and basic data storage.
+##  BLOC Architecture
+
 * (api, model, repo) data => bussniss_logic => presentation
 * and perfect app router to initialize all bloc provider 
 * and get all routes inside app 
